@@ -37,7 +37,7 @@ function AdviceCard() {
                 <div className='pattern-divider w-full h-4 items-center md:mt-8  mb-8 md:mb-6 bg-[url(/images/pattern-divider-mobile.svg)] md:bg-[url(/images/pattern-divider-desktop.svg)] bg-contain md:bg-cover bg-center bg-no-repeat'>
                 {/* pattern design here */}
                 </div>
-                <button className='button absolute bottom-0 translate-y-1/2 bg-Green300 h-12 w-12 flex flex-row justify-center items-center rounded-full cursor-pointer transform hover:scale-120  hover:shadow-Green300 hover:shadow-2xl active:scale-90 transition-all duration-200 ease-in-out' onClick={()=> getAdvice()} ><img  src="/images/icon-dice.svg" alt="" /></button>
+                <button className='button absolute bottom-0 translate-y-1/2 bg-Green300 h-12 w-12 flex flex-row justify-center items-center rounded-full cursor-pointer transform hover:scale-120  hover:shadow-Green300 hover:shadow-2xl active:scale-90 transition-all duration-200 ease-in-out' onClick={()=> getAdvice()} ><img  src="images/icon-dice.svg" alt="" /></button>
             </div>
         </div>
     )
