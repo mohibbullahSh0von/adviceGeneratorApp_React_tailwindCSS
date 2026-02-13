@@ -7,5 +7,5 @@ export default defineConfig({
   plugins: [react(),
             tailwindcss(),
   ],
-  base: "/adviceGeneratorApp_React_tailwindCSS",
+  base: "/adviceGeneratorApp_React_tailwindCSS/",
 })
