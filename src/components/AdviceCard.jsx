@@ -15,11 +15,11 @@ function AdviceCard() {
 
     const getAdvice = async ()=>{
         try {
-            const adviceSlip = await (await fetch(adviceUrl)).json();
+            const adviceSlip = await (await fetch(adviceUrl, 
+                { cache: "no-cache" })).json();
             setAdviceData(adviceSlip.slip);
             setError(null);
         } catch (error) {
-            console.log(error);
             setError(()=>error.message);
         }
     }
